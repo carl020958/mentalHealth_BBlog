@@ -119,10 +119,7 @@ uni_maladapt <- c("uni_maladapt_studyproblem", "uni_maladapt_alcoholproblem",
 #       sheet = '시트1'
 #     )
 #   
-#   ####################
-#   # survey_2021 data #
-#   ####################
-#   
+#   # survey_2021 data
 #   load("survey_2021_long.Rdata")
 #   
 #   d <-
