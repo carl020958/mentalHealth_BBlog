@@ -95,22 +95,6 @@ rbind(
   unique() %>% 
   View()
 
-
-par <- par %>%
-  mutate(email = case_when(
-    n == 79 ~ 'dddck2000@korea.ac.kr',
-    n == 145 ~ '	zhouhappy111@gmail.com',
-    n == 273 ~ 'rorwn77@korea.ac.kr',
-    n == 560 ~ "0701thesebin@korea.ac.kr",
-    n == 675 ~ 'ryuhyunjung@korea.ac.kr',
-    n == 755 ~ 'moon5593@korea.ac.kr',
-    n == 778 ~ 'overrider@korea.ac.kr',
-    n == 790 ~ 'jhhhh98@korea.ac.kr',
-    n == 907 ~ 'pureearth@korea.ac.kr',
-    T ~ email
-  )) %>% 
-  filter(! n %in% c(193, 1000))
-
 #check file_directory
 par %>% filter(is.na(email))
 par %>% filter(is.na(file_directory))
