@@ -10,12 +10,11 @@
 ---
 
 ### 사용된 패키지
-
 - 전반적인 데이터 전처리: tidyverse
 - 시간 데이터 전처리: lubridate
 - 분석: 내장 라이브러리
-- 시각화: plotly, highcharter, kableExtra, formattable,
+- 시각화: plotly, highcharter, kableExtra, formattable
 - 대시보드화: rmarkdown, flexdashboard
-- API: googlesheets4, googledrive
+- API: googlesheets4, googledrive, mailR
 
 ---
