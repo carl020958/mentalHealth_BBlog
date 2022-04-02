@@ -14,7 +14,7 @@ pacman::p_load('flexdashboard', 'plotly', 'highcharter', 'kableExtra', 'formatta
 # ------------
 
 # 수검자 세팅1
-# parID <- "2021020006"
+# parID <- "**********"
 
 #수검자 세팅2
 parName <-
